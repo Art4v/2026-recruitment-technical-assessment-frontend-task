@@ -1,0 +1,56 @@
+/* import fonts*/
+@import url(https://db.onlinewebfonts.com/c/7772e6e6f2aab81bd15ca18b673d5294?family=Bergen+Sans+Semi+Bold);
+
+
+/* navbar logo */
+.navbar {
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 0.5rem;
+    opacity: 1;
+    transition: opacity 0.7s ease;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-brand a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #F6915A;
+    text-decoration: none;
+    font-family: 'Bergen Sans Semi Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.navbar-brand img {
+    height: 2.5rem;
+}
+
+.navbar-brand:hover {
+    opacity: 0.7;
+    transition:  0.2s ease;
+}
+
+/* navigation links */
+.navbar-links {
+    display: flex;
+    gap: 1rem;
+}
+.navbar-links img {
+    height: 1.5rem;
+    padding: 0.2rem;
+    border: 1px solid #F6915A;
+    border-radius: 0.2rem;
+    transition: color 0.2 ease;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.navbar-links img:hover {
+    background-color: rgb(247, 207, 189);
+    border-color: #B45231;
+}
