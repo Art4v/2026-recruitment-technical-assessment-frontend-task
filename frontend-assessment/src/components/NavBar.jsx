@@ -1,5 +1,5 @@
 // import link 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 // import css
 import '../css/NavBar.css';
@@ -10,24 +10,24 @@ import search from '../assets/search.png';
 import grid_view from '../assets/grid_view.png';
 import free_room from '../assets/free_room.png';
 import map from '../assets/map.png';
-import dark_mode from '../assets/dark_mode.png'
+import dark_mode from '../assets/dark_mode.png';
 
 
 // navbar
 function NavBar() {
-return <nav className="navbar">
-  <div className="navbar-brand">
-    <Link to="/">
-      <img src={freeRoomsLogo} alt="freeRoomsLogo"/>
+return <nav className='navbar'>
+  <div className='navbar-brand'>
+    <Link to='/'>
+      <img src={freeRoomsLogo} alt='freeRoomsLogo'/>
 	  Freerooms
     </Link>
   </div>
-  <div className="navbar-links">
-    <Link to="/" className="nav-link"><img src={search} alt="search" /></Link>
-    <Link to="/" className="nav-link"><img src={grid_view} alt="search" /></Link>
-    <Link to="/" className="nav-link"><img src={free_room} alt="search" /></Link>
-    <Link to="/" className="nav-link"><img src={map} alt="search" /></Link>
-    <Link to="/" className="nav-link"><img src={dark_mode} alt="search" /></Link> 
+  <div className='navbar-links'>
+    <Link to='/' className='nav-link'><img src={search} alt='search' /></Link>
+    <Link to='/' className='nav-link'><img src={grid_view} alt='search' /></Link>
+    <Link to='/' className='nav-link'><img src={free_room} alt='search' /></Link>
+    <Link to='/' className='nav-link'><img src={map} alt='search' /></Link>
+    <Link to='/' className='nav-link'><img src={dark_mode} alt='search' /></Link> 
   </div>
 </nav>
 }

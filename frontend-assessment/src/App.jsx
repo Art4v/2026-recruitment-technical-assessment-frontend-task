@@ -6,9 +6,9 @@ function App() {
   return (
     <div>
       <NavBar />
-      <main className="main-content"> 
+      <main className='main-content'> 
         <Routes>
-          <Route path="/" element={<RoomPage />}/>
+          <Route path='/' element={<RoomPage />}/>
         </Routes>
       </main>
     </div>
