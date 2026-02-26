@@ -1,8 +1,8 @@
 // import link 
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 // import css
-import '../css/NavBar.css'
+import '../css/NavBar.css';
 
 // imports for images
 import freeRoomsLogo from '../assets/freeRoomsLogo.png';
